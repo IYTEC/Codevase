@@ -1,0 +1,61 @@
+#main {
+	min-height: 670px; width: 100%;
+	min-height: 100%;
+    max-width: 100%;
+    margin: 0; padding: 0;
+    background: #fff; /* Changed background color from #EEE4B9; */
+}
+#admin_menu {
+	list-style: none;
+}
+#admin_menu > a {
+	outline-style: none;
+	color: #33A3DD
+}
+ul{
+	list-style: none;
+}
+
+#cat_edit{
+	color: inherit;
+}
+#cat_list{
+	font-size: 110%;
+}
+#login-form input, #login-form button, #login-form textarea, #login-form select {
+	border-radius: 0;
+}
+#navigation {
+/*    float: right;*/
+    /*width: 150px; height: 100%;*/
+    margin: 0; padding: 0 0;/* changed padding: 0 2em */
+    color: #689DC1; /* background: #6CC5E4; background: #8D0D19; */
+}
+#navigation a { color: #689DC1; text-decoration: none; }
+#navigation a:hover { font-weight: bold; color: #689DC1; }
+h2{
+	text-decoration: underline
+}
+
+.view-content{
+	margin: 1em; padding: 1em; border: 1px solid #999;
+}
+div.message {
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0; padding: 1em;
+}
+.error{
+	color: #8D0D19; border: 2px solid #8D0D19;
+	margin: 1em 0; padding: 1em;
+}
+.error ul{
+	padding-left: 2em;
+}
+ul.subjects {
+    margin: 1em 0; padding-left: 0; list-style: none;
+}
+ul.pages {
+    padding-left: 2em; list-style: square; font-weight: normal;
+}
+.selected { font-weight: bold; }
